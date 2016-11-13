@@ -26,5 +26,5 @@ const apiPuppiesRouter = require('./routes/api/puppies');
 app.use('/api/puppies', apiPuppiesRouter);
 
 app.listen(PORT, () => {
-  console.log('woof! 🐶');
+  console.log('woof! 🐶', PORT);
 });
